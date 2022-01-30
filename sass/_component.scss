@@ -1,0 +1,56 @@
+.info-section{
+
+
+    &__logo{
+
+        height: 3rem;
+    }
+    &__icon{
+        height: 2rem;
+        width: 2rem;
+        align-self: center;
+        
+    }
+    &__header{
+
+
+        
+    }
+
+    &__profile{
+        display: flex;
+        
+    
+
+        &-img{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            
+        }
+    }
+}
+.profile-table__Btn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    align-self: center;
+    color: var(--color-grey-1);
+    border: 1px solid #2F80ED;
+    border-radius: 10px;
+    padding: .2rem 2rem;
+    transition: all .2s;
+
+
+    &:active,
+    &:hover{
+        background-color:#2F80ED; 
+        color: #fff;
+        box-shadow:1px 1px 8px 4px #c0c0c0;
+    }
+}
+.userprofile__img{
+     width: 4.5rem;
+     height: 4.5rem;
+     border-radius: .8rem;
+
+}

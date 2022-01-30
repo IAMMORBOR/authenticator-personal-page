@@ -1,0 +1,109 @@
+.info-section{
+// width:84.5rem;
+
+    &__header{
+        display: flex;
+        padding: 1rem 4rem;
+        border-bottom: 1px solid #c0c0c0; ;
+        box-shadow:1px 1px 8px 4px #c0c0c0;
+        justify-content: space-between;
+    }
+    &__username{
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    @media only screen and (max-width:37.5em) {
+        display: none;
+    }
+}
+.profile-table--box{
+    max-width: 84.6rem;
+    max-height:58.5rem ;
+    margin: 2rem auto;
+    box-shadow:1px 1px 8px 4px #c0c0c0;
+    border-radius: 1.2rem;
+
+    @media only screen and (max-width:37.5em) {
+        margin: 0 auto;
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
+.details-section{
+    text-align: center;
+    margin-top: 2rem;
+
+    &__heading{
+        font-size: 2.5rem;
+        font-family: var(--font-family-1);
+        color:#000;
+        font-weight: 500;
+    }
+    &__text{
+        font-size: 1.2rem;
+        font-family: inherit;
+        color:var(--color-dark-2);
+    }
+
+    @media only screen and (max-width:37.5em) {
+        display: none;
+    }
+}
+.profile-table{
+    // margin: 2rem auto;
+    // width: 60%;
+    display: flex;
+    padding: 2rem 3rem;
+    justify-content: space-between;
+    align-content: center;
+    // border-radius: 5px;
+    border-bottom: 1px solid #D3D3D3;
+
+    @media only screen and (max-width:37.5em) {
+        margin-top: 1.2rem;
+    }
+
+    &__heading{
+
+        &--profile{
+            color: #000;
+            font-size: 1.8rem;
+            font-family: inherit;
+            font-weight: 400;
+        }
+        &--text{
+            color: var(--color-dark-2);
+            font-weight: 500;
+            font-size: 1rem;
+        }
+    }
+}
+.userprofile-profile{
+    display: flex;
+    padding: 1.5rem 10rem 1.5rem 4rem;
+    border-bottom: 1px solid #E0E0E0;
+    align-content: center;
+
+    &__list{
+        list-style: none;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        color: var(--color-grey-2);
+        margin-right: 15rem;
+        font-weight: 500;
+
+    }
+    &__content{
+       font-size: 1.16rem;
+       font-weight: 500;
+       color: var(--color-dark-2);
+        
+       @media only screen and (max-width:37.5em) {
+        // white-space: nowrap; 
+        // width: 50px; 
+        // overflow: hidden;
+        // text-overflow: ellipsis;
+    }
+    }
+}     

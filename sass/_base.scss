@@ -1,0 +1,31 @@
+:root {
+  --color-grey-1: #828282;
+  --color-grey-2:#BDBDBD;
+  --color-dark-1: #0000;
+  --color-dark-2: #333333;
+
+  --font-family-1:"Noto Sans", sans-serif;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+  *::before,
+  *::after {
+    box-sizing: inherit; }
+  
+  html {
+    font-size: 62.5%;
+}
+body {
+    font-family: var(--font-family-1);
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-dark-2);
+    min-height: 100vh;
+
+    
+  }
