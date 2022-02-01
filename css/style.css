@@ -49,7 +49,11 @@ body {
     .profile-table--box {
       margin: 0 auto;
       box-shadow: none;
-      border-radius: 0; } }
+      border-radius: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; } }
 
 .details-section {
   text-align: center;
@@ -91,6 +95,13 @@ body {
   padding: 1.5rem 10rem 1.5rem 4rem;
   border-bottom: 1px solid #E0E0E0;
   align-content: center; }
+  @media only screen and (max-width: 37.5em) {
+    .userprofile-profile__list--userName-bio {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 14rem;
+      white-space: nowrap;
+      align-self: center; } }
   .userprofile-profile__list {
     list-style: none;
     font-size: 1.3rem;
@@ -98,6 +109,14 @@ body {
     color: var(--color-grey-2);
     margin-right: 15rem;
     font-weight: 500; }
+    @media only screen and (max-width: 37.5em) {
+      .userprofile-profile__list {
+        margin: 1.5rem auto 1.5rem 0;
+        display: flex;
+        align-content: center;
+        justify-content: center; } }
+    .userprofile-profile__list--userName {
+      align-self: center; }
   .userprofile-profile__content {
     font-size: 1.16rem;
     font-weight: 500;
@@ -127,6 +146,9 @@ body {
   border-radius: 10px;
   padding: .2rem 2rem;
   transition: all .2s; }
+  @media only screen and (max-width: 37.5em) {
+    .profile-table__Btn {
+      margin-right: 6rem; } }
   .profile-table__Btn:active, .profile-table__Btn:hover {
     background-color: #2F80ED;
     color: #fff;
