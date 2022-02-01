@@ -1,5 +1,17 @@
 .info-section{
 
+    &__ul{
+        display: flex;
+
+        &--list{
+            list-style: none;
+            align-self: center;
+            
+            &:not(:last-child){
+                margin-right: 1.5rem;
+            }
+        }
+    }
 
     &__logo{
 

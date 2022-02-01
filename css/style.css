@@ -122,6 +122,14 @@ body {
     font-weight: 500;
     color: var(--color-dark-2); }
 
+.info-section__ul {
+  display: flex; }
+  .info-section__ul--list {
+    list-style: none;
+    align-self: center; }
+    .info-section__ul--list:not(:last-child) {
+      margin-right: 1.5rem; }
+
 .info-section__logo {
   height: 3rem; }
 
